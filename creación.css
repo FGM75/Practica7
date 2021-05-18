@@ -10,9 +10,20 @@
     --color-subcabecera:#f87500;
     --color-cuerpo:#ff8d27;
   }
-
-  .cabecera{
+body{
+  margin:0;
+}
+header, h1{
     background-color: var(--color-cabecera);
+    margin:0;
   }
+.barratitulo p{
+  background-color: var(--color-subcabecera);
+  margin:0;
+}
+.principal ul{
+  background-color: var(--color-cuerpo);
+  margin:0;
 
+}
 
